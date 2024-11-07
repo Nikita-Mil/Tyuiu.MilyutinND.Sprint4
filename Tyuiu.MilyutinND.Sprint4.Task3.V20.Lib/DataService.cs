@@ -9,7 +9,7 @@ namespace Tyuiu.MilyutinND.Sprint4.Task3.V20.Lib
             int rows = array.GetUpperBound(0) + 1;
             int columns = array.Length/rows; 
 
-            int count = 0;
+            int count = 100000;
 
             for (int i = 0; i < rows; i++)
             {
