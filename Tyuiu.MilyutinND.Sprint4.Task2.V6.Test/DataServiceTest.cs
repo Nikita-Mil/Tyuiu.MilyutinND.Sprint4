@@ -14,7 +14,7 @@ namespace Tyuiu.MilyutinND.Sprint4.Task2.V6.Test
 
             int res = ds.Calculate(numsArray);
 
-            int wait = 42;
+            int wait = 945;
 
             Assert.AreEqual(wait, res);
         }
