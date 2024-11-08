@@ -31,16 +31,18 @@
 //Console.WriteLine("Произведение нечетных элементов массива = " + ds.GetMultOddArrEl(array));
 
 //Console.ReadKey();
-int[,] array = new int[,] { { 5, -6,3 }, { 8, -9, 7 }, {2, -5, 4 } };
-int s = 0;
-for (int i = 0; i < array.GetLength(0); i++)
+string str = "458963147";
+int[,] matrix = new int[3, 3];
+int sum = 0;
+for (int i = 0; i < 3; i++)
 {
-    for (int j = 0; j < array.GetLength(1); j++)
+    for (int j = 0; j < 3; j++)
     {
-        if (array[i, j] % 2 == 0)
+        matrix[i, j] = int.Parse(str[i * 3 + j].ToString());
+        if (i == 1)
         {
-            s += array[i, j];
+            sum += matrix[i, j];
         }
     }
 }
-Console.WriteLine(s);
+Console.WriteLine(sum);
