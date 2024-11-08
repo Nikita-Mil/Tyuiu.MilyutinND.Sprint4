@@ -10,7 +10,7 @@ namespace Tyuiu.MilyutinND.Sprint4.Task5.V13.Lib
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
-                    if (matrix[i, j] < -1)
+                    if (matrix[i, j] < 0)
                         matrix[i, j] = 0;
                 }
             }
